@@ -139,6 +139,12 @@ function logIsFeature(issue) {
     +issue.stats.total === 1 ? '' : 's'
   ));
 
+  dupes = dupes.length ? dupes.map(function(xs) {
+    return xs.split(/[,\s]+/g);
+  }).reduce(function(lhs, rhs) {
+    return lhs.concat(rhs);
+  }) : [];
+
   console.log();
   console.log(wordwrap(4, 80)(issue.title));
   console.log();
