@@ -1,12 +1,14 @@
 {
   "name": "bug-me",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "get a bug to look at based on what you're interested in",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
   },
-  "bin": {"bug-me": "./index.js"},
+  "bin": {
+    "bug-me": "./index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/chrisdickinson/bug-me.git"
