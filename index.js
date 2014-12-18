@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var Readable = require('stream').Readable;
 var concat = require('concat-stream');
 var minimist = require('minimist');
