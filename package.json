@@ -1,6 +1,6 @@
 {
   "name": "bug-me",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "get a bug to look at based on what you're interested in",
   "main": "index.js",
   "scripts": {
